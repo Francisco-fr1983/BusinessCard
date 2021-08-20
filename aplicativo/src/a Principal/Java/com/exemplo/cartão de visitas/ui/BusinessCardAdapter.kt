@@ -56,6 +56,6 @@ class DiffCallBack: DiffUtil.ItemCallback<BusinessCard> () {
     override fun areContentsTheSame(oldItem: BusinessCard, newItem: BusinessCard) = oldItem.id == newItem.id
 
 }
-/* Os dois pontos : => Tmabém conhecido como return ou retorno.*/
+/* Os dois pontos : => Extented*/
 /*Ainda temos que criar o ViewHolder->  O ViewHolder é um wrapper em torno da View que contém o layout de um item individual na lista.
 O Adapter cria objetos ViewHolder conforme necessário e também define os dados para essas visualizações*/
